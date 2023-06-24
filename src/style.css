@@ -1,0 +1,49 @@
+body {
+    background:black;
+}
+.square {
+
+    width: 100px;
+	height: 100px;
+	float: left;
+	margin: 1px;
+    background: #C9F9FC;
+    border: 2px solid #000000;
+   border-radius: 16px;
+   font-size: 50px;
+   font-variant: small-caps;
+
+  
+
+}
+.board-row {
+    display: flex;
+    align-items: center;
+   
+
+}
+.status {
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.frame {
+    width: fit-content;
+    border: 2px solid black;
+    background: #C9F9FC;
+    margin: auto;
+    padding: 20px;
+}
+.btn-move {
+    background-color: #fff;
+    margin-left: 40%;
+    padding: 2px;
+    border: 2px solid #fff;
+    width: fit-content;
+    border-radius: 7px;
+    margin-bottom: 6px;
+}
+.btn-m{
+    background-color: #fff;
+    border: none;
+}
